@@ -1,0 +1,22 @@
+{
+  "name": "node-chat-socket",
+  "version": "1.0.0",
+  "description": "chat based on node.js, socketio and vue.js",
+  "main": "index.js",
+  "engines": {
+    "node": "12.13.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "ksenia-gezalova",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
